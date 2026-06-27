@@ -1,0 +1,35 @@
+# ===== 系统文件 =====
+Thumbs.db          # Windows 缩略图缓存
+Desktop.ini        # Windows 文件夹配置
+.DS_Store          # macOS 文件夹信息
+._*                # macOS 资源分支文件
+
+# ===== 编辑器/IDE =====
+.vscode/           # VS Code 配置
+.idea/             # JetBrains IDE 配置
+*.swp              # Vim 临时文件
+*.swo              # Vim 临时文件
+*~                 # 编辑器备份文件
+
+# ===== SELinux 编译产物 =====
+*.pp               # 编译后的策略包（二进制）
+*.mod              # 中间模块文件
+*.te.tmp           # 临时策略文件
+
+# ===== 备份与临时文件 =====
+*.bak              # 备份文件
+*.tmp              # 临时文件
+*.log              # 日志文件
+*.orig             # 合并产生的备份
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+.env/
+venv/
+
+# ===== 压缩包 =====
+*.zip
+*.tar.gz
+*.7z
