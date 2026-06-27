@@ -21,6 +21,8 @@ Desktop.ini        # Windows 文件夹配置
 *.tmp              # 临时文件
 *.log              # 日志文件
 *.orig             # 合并产生的备份
+*.claude
+
 
 # ===== Python =====
 __pycache__/
